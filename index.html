@@ -8,7 +8,6 @@
 	</head>
 	<body>
 		<div class="container" id="soundboard">
-			<!-- <h1>Sverre Audun Soundboard</h1> -->
 			<ul>
 				<li
 					v-for="sound in soundboard"
@@ -223,7 +222,6 @@
 		width: 100%;
 		height: 180px;
 		font-size: 5em;
-		display: inline-block;
 		border-radius: 1000px;
 		background: white;
 		border: none;
@@ -232,6 +230,9 @@
 		transform: scale(1);
 		box-shadow: 0 0 100px transparent;
 		border: 5px solid transparent;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	li button:active,
 	li button:focus {
